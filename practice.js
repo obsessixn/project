@@ -1,35 +1,59 @@
 "use strict";
-//  let a = 15;
- 
-//  let number = 5;
-//  const leftBorderWidth = 1;
 
-//  number = 10;
-//  console.log(number);
+// let num = 50;
 
-// const category = 'toys';
+// // while (num < 55){
+// //     console.log(num);
+// //     num++;
+// // }
 
-// console.log(`https://someurl.com/${category}/5` )
+// do{
+//     console.log(num);
+//     num++;
+// }
+// while(num < 55);
 
-// const user = "Ivan";
+// for (let i = 1; i < 8; i++){
+//     console.log(i);
+// }
 
-// alert(`Privet, ${user}`);
+// for(let i = 0; i < 3; i++){
+//     console.log(i);
+//     for(let j = 0; j < 3; j++){
+//         console.log(j);
+//     }
+// }
+// let result = '';
+// const length = 7;
 
-// console.log('arr' + "- object");
-// console.log(4 + +"5");
+// for (let i = 1; i < length; i++){
 
-let incr = 10,
-    decr = 10;
+//     for(let j = 0; j < i; j++){
+//         result += "1"
+//     }
 
-// ++incr;
-// --decr;
+//     result += '\n';
+// }
 
-// console.log(incr);
-// console.log(decr);
+// console.log(result);
 
-console.log(5%2);
+// first:for(let i = 0; i < 3; i++){
+//             console.log(`First level: ${i}`);
+//         for(let j = 0; j < 3; j++){
+//             console.log(`Second level: ${j}`);
+//             for(let k = 0; k < 3; k++){
+//                 if(k === 2) break first;
+//                 console.log(`Third level: ${k}`);
+//             }
+//         }
+//      }
 
-const isChecked = true,
-      isClose  = false;
-
-console.log(isChecked && !isClose);
+// let number = prompt("Введите содержимое переменной:",'');
+// let sum = 0;
+// let n = number;
+// for (let i = 1; i <=n; i++){
+//     sum = sum + i;
+    
+// }
+// console.log(number);
+// console.log(sum);
